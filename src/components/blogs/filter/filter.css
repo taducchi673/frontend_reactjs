@@ -22,13 +22,13 @@
     outline: none;
     text-align: center;
     margin: 0 auto;
-    /* background: green; */
+    
     padding: 15px;
     background: white;
     border: 1px solid gray;
     border-radius: 10px;
     margin-top: 15px;
-    /* color: white; */
+    
     font-weight: bold;
     
 }

@@ -1,20 +1,7 @@
 .CourseContent {
     width: 100%;
 }
-/* 
-.CourseContent>div:has(input) {
-    text-align: left;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    padding: 20px;
-    /* background: rgba(0, 0, 0, 0.4); */
-    /* margin-top: 20px;
-    align-items: left;
 
-} */ */
 
 .CourseContent>div:has(input)>button {
     width: 200px;
