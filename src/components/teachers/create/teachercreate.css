@@ -1,0 +1,11 @@
+.teachercreate {
+    margin: 50px 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teachercreate__content {
+    width: 70%;
+    background: white;
+    border-radius: 10px;
+}

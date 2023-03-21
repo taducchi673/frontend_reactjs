@@ -1,0 +1,35 @@
+.lessonupdate__header {
+    /* border: 1px solid gray; */
+    padding: 20px;
+    margin: 20px;
+}
+.lesson >div {
+    padding: 8px 0;
+    margin-left: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.lessonupdate__header>div.lessonupdate_header_first {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px 0 ; */
+}
+
+.lessonupdate__header_child {
+    position: relative;
+    
+}
+
+.lessonupdate__header>div.lessonupdate_header_first>div>.commentoptiond {
+    width: 200px;
+    border: blue;
+    padding: 10px;
+    top: 35px;
+}
+
+.lessonupdate__header>div.lessonupdate_header_first>div>button:first-child {
+    width: 200px;
+    border: blue;
+    padding: 10px;
+    top: 35px;
+}

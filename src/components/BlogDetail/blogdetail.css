@@ -1,0 +1,124 @@
+.blogdetail {
+    width: 72%;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+.blogdetail>h3 {
+    text-transform: uppercase;
+}
+
+.blogdetail__content {
+    text-align: left;
+    font-size: 18px;
+    /* font-family: "Time New Romans" */
+}
+
+.blogdetail__content img {
+    max-width: 100%;
+}
+
+.blogdetail__container {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin: 50px 8%;
+    /* position: relative; */
+}
+
+.blogdetail__title {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.blogdetail__title>div:last-child {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.blogdetail__title>div:last-child>a {
+    padding: 10px;
+    
+    /* color: black; */
+}
+
+.blogdetail__title>div:last-child>button {
+    background-color: red;
+    border-radius: 5px;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    max-height: 50px;
+    
+}
+
+.deletediv {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    z-index: 100;
+}
+
+.delete_content {
+    padding: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+.delete_content {
+    width: 400px;
+    height: 250px;
+    text-align: center;
+}
+.delete_content>p {
+    padding-bottom: 20px;
+    font-weight: normal;
+    
+}
+
+.delete_content>div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.delete_content>div>button {
+    padding: 10px;
+    font-weight: 12px;
+    
+}
+
+.delete_content>div>button:first-child {
+    background: red;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

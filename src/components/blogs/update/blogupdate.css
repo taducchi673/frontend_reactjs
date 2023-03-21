@@ -1,0 +1,61 @@
+.blogupdate {
+    margin: 50px 8%;
+    display: flex;
+    justify-content: space-between;
+    
+    text-align: left;
+}
+
+.blogupdate__content {
+    width: 70%;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.blogupdate__content>input[type="text"] {
+   
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(60%);
+    font-size: 16px;
+    border: 1px solid gray;
+  
+    
+}
+
+
+.blogupdate__content>input[type="text"]:focus {
+    outline: 2px solid blue;
+}
+
+.blogupdate__content>h3 {
+    text-align: center;
+}
+
+.blogupdate__content>label {
+    font-weight: bold;
+    margin-right: 20px;
+    width: 200px;
+    display: inline-block;
+
+}
+
+
+
+.blogupdate__content>select {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.blogupdate__content>select>option {
+    
+    padding: 10px;
+    line-height: 30px;
+    display: block;
+    height: 30px;
+    
+}

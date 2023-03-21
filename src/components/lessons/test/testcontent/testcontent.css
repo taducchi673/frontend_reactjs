@@ -1,0 +1,24 @@
+.testcontent {
+   
+    margin: 30px;
+    background: white ;
+    padding: 20px;
+    font-family: "Times New Roman";
+    font-size: 18px;
+}
+
+.testcontent p, .testcontent label {
+    font-size: 17px !important;
+}
+
+.testcontent input {
+    margin-right: 10px;
+}
+
+.testcontent_container {
+    width: 80%;
+     
+   ackground: #213A58;
+min-height: 100vh;
+over-flow: scroll;
+}

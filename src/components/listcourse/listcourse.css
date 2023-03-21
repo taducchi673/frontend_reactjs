@@ -1,0 +1,54 @@
+.listcourse {
+    width: 77%;
+    /* background: green; */
+    
+    /* padding: 20px; */
+    
+}
+.listcourse__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.listcourse_tocreate {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.listcourse_tocreate>button {
+    padding: 20px;
+    background-color: #FFF1DC;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+   
+}
+
+.listcourse_tocreate>h3 {
+    text-align: center;
+}
+
+
+.listcourse_tocreate>button>a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.listcoursehomepage {
+    
+width: 100%;
+}
+
+.listcoursehomepage > .listcourse__content {
+    width: 100%;
+    display: block;
+}

@@ -1,0 +1,9 @@
+.lesson >div {
+    padding: 8px 0;
+    margin-left: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.lesson {
+    margin-top: 20px;
+}

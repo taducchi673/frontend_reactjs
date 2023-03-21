@@ -1,0 +1,49 @@
+.listblog {
+    width: 77%;
+}
+.listblog_homepage>.listblog__content {
+    display: block;
+   
+}
+
+.listblog>a {
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.listblog_tocreate {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.listblog_tocreate>button {
+    padding: 10px 20px;
+    background-color: #16A34A;
+    border: none;
+    border-radius: 5px;
+    
+    
+   
+}
+
+.listblog_tocreate>button>a {
+    
+}
+
+.listblog_tocreate>h3 {
+    text-align: center;
+}
+
+
+.listblog_tocreate>button>a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}

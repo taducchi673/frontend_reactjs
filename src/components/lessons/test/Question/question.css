@@ -1,0 +1,9 @@
+.question_test {
+    text-align: left;
+}
+
+.question_test {
+    display: flex;
+    flex-direction: column;
+    
+}

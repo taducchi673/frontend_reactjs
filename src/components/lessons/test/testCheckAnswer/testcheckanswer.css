@@ -1,0 +1,11 @@
+.testcheckanswer {
+    margin: 50px 8%;
+    background: white;
+    padding: 50px;
+    text-align: left;
+    min-width: 84%;
+}
+
+.testcheckanswer  >h2 {
+    text-transform: uppercase;
+}

@@ -1,0 +1,21 @@
+.contact {
+    margin: 50px 8%;
+    padding: 50px;
+    background: white;
+}
+
+@media screen and (max-width: 1280px) {
+    .contact {
+        
+        margin: 50px 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {  
+    .contact {
+        
+        margin: 50px 10px;
+    }
+}

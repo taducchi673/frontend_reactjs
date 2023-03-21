@@ -1,0 +1,19 @@
+.listteacher {
+    width: 100%;
+    /* background: red; */
+}
+
+.listteacher__title {
+    width: 100%;
+}
+
+
+
+.listteacher__title {
+    text-align: left;
+    padding-bottom: 30px;
+    
+}
+.listteacher_homepage>.listteacher__content {
+    display: block;
+}

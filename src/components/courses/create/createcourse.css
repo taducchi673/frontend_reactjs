@@ -1,0 +1,35 @@
+.createcourse {
+    margin: 50px 8%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.createcourse label {
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.createcourse input, 
+.createcourse select {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.createcourse input[type="file"] {
+    padding: 10px 0;
+}
+
+.finish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 8%;
+    flex-direction: column;
+    background: white;
+    padding: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

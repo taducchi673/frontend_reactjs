@@ -1,0 +1,25 @@
+.aboutus {
+    padding: 50px;
+    background: white; 
+    margin: 50px 8%;
+}
+
+.aboutus__content {
+    text-align: left;
+}
+
+@media screen and (max-width: 1280px) {
+    .aboutus {
+        
+        margin: 50px 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {  
+    .aboutus {
+        
+        margin: 50px 10px;
+    }
+}

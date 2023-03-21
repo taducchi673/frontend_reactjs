@@ -1,0 +1,35 @@
+.comment>div {
+    display: flex;
+    text-align: left;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+
+.comment_user_profile {
+    margin-right: 20px;
+}
+
+.comment_user_profile > img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.comment__user {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.comment__user p {
+    display: inline-block;
+}
+.comment_createdat {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.comment__content {
+    width: calc( 100% - 60px)
+}

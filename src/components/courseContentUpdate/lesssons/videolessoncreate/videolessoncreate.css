@@ -1,0 +1,60 @@
+.sublesson_create {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 100vh;
+    width: 100vw;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sublesson_create svg {
+    cursor: pointer;
+}
+
+.sublesson_create_content {
+    background: white;
+    width: 80%;
+    border-radius: 10px;
+    min-height: 500px;
+    padding: 20px;
+    overflow-y: scroll;
+    max-height: 100vh;
+}
+
+.sublesson_create_content>div:first-child {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.sublesson_create_content>div.formvideocreate {
+    display: flex;
+    flex-direction: column;
+}
+
+.sublesson_create_content_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sublesson_create_content:has(.successdiv)>div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+.sublesson_create_content:has(.successdiv)>div:last-child>p:last-child {
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}

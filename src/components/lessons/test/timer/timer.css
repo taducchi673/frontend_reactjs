@@ -1,0 +1,11 @@
+.timer {
+    width: 20%;
+    background: green;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #213A40;
+    bottom: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

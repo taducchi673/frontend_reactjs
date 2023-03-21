@@ -1,0 +1,38 @@
+.coursedetail__notenrolled {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 8%;
+
+}
+
+.coursedetail__content {
+    width: 70%;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .coursedetail__notenrolled {
+        margin: 30px 10px;
+        flex-direction: column
+    }
+    
+}
+
+.coursedetail__content>div:first-child {
+    font-weight: bold;
+}
+
+.coursedetail__content>div:first-child>p:first-child {
+    text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {  
+    .coursedetail__notenrolled  {
+        margin: 30px 10px;
+        flex-direction: column;
+    }
+
+}

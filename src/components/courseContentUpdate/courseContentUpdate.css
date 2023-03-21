@@ -1,0 +1,73 @@
+.CourseContent {
+    width: 100%;
+}
+/* 
+.CourseContent>div:has(input) {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 20px;
+    /* background: rgba(0, 0, 0, 0.4); */
+    /* margin-top: 20px;
+    align-items: left;
+
+} */ */
+
+.CourseContent>div:has(input)>button {
+    width: 200px;
+}
+
+.CourseContent>div:has(input)>input[type="text"], 
+.CourseContent>div:has(input)>label {
+    width: 100%;
+}
+.CourseContent label {
+    font-weight: bold;
+}
+
+.CourseContent input, .CourseContent label {
+    padding: 5px;
+    margin: 5px 0;
+    
+}
+
+.themchuong {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    z-index: 10000000000;
+    justify-content: center;
+}
+
+.themchuong>div {
+    background: white;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    padding-top: 30px;
+}
+
+.themchuong>div>svg:first-child {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    
+    border: none;
+    cursor: pointer;
+    z-index: 10000;
+}

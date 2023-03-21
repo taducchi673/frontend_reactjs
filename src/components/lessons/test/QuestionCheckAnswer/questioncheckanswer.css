@@ -1,0 +1,23 @@
+.questioncheckanswer>p:nth-child(2) {
+    font-weight: bold;
+}
+
+
+.questioncheckanswer p {
+    /* font-size: 18px !important;
+    font-family: "Times New Roman" */
+    padding: 3px;
+}
+
+.question_bluan {
+    padding: 10px;
+    background: red;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid gray;
+}

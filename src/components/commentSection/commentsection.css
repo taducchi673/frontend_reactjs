@@ -1,0 +1,9 @@
+.commentSection {
+    margin-top: 50px;
+}
+
+.commentSection>h3 {
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

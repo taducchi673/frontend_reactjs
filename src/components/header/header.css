@@ -1,0 +1,116 @@
+.App__header {
+    
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8%;
+}
+
+
+.header__logo {
+    font-size: 1.2rem;
+}
+.header__login>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header__nav  {
+    /* background-color: #B09B71; */
+    /* border-bottom: 1px solid gray; */
+    padding: 0px 8%;
+}
+
+
+.header__nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header__nav ul li {
+    opacity: 0.8;
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-right: 1px solid gray;
+    margin: 15px 0;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.header__nav ul li:hover {
+    background-color: #FCFFE7;
+    
+}
+
+.header__nav ul li:first-child {
+    padding-left: 0;
+}
+.header__nav ul li:last-child {
+    border: none;
+}
+
+.header__nav ul li a {
+    text-decoration: none;
+    /* display: inline-block; */
+    color: black;
+    
+    /* height: 40px; */
+    /* padding-right: 20px; */
+    line-height: 40px;
+    /* background: gray; */
+}
+
+.header__login >div {
+    display: flex;
+}
+
+.header__login >div>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.header__logo>img {
+    width:50px;
+    height: 50px;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .header__top {
+        padding: 20px 10px;
+    }
+    
+    
+    
+    .header__nav  {
+
+        padding: 0px 10px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 768px) {  
+    .header__top {
+        padding: 20px 10px;
+    }
+    
+    
+    
+    .header__nav  {
+
+        padding: 0px 10px;
+    }
+}

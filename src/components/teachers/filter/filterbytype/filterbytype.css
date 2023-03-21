@@ -1,0 +1,19 @@
+.filterbytype h3 {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.filterbytype {
+    text-align: left;
+}
+
+
+.filterbytype>div>div>input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+
+}

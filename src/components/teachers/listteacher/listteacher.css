@@ -1,0 +1,24 @@
+.listteacher {
+    width: 100%;
+    /* background: red; */
+}
+
+.listteacher__title {
+    width: 100%;
+}
+
+
+.listteacher__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 100%;
+    
+}
+
+
+.listteacher__title {
+    text-align: left;
+    padding-bottom: 30px;
+    
+}

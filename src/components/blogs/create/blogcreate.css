@@ -1,0 +1,95 @@
+.blogcreate {
+    margin: 50px 8%;
+    display: flex;
+    justify-content: space-between;
+    
+    text-align: left;
+}
+
+.blogcreate__content {
+    width: 70%;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.blogcreate__content>input[type="text"] {
+   
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(60%);
+    font-size: 16px;
+    border: 1px solid gray;
+  
+    
+}
+
+
+.blogcreate__content>input[type="text"]:focus {
+    outline: 2px solid blue;
+}
+
+.blogcreate__content>h3 {
+    text-align: center;
+}
+
+.blogcreate__content>label {
+    font-weight: bold;
+    margin-right: 20px;
+    width: 200px;
+    display: inline-block;
+
+}
+
+
+
+.blogcreate__content>select {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.blogcreate__content>select>option {
+    
+    padding: 10px;
+    line-height: 30px;
+    display: block;
+    height: 30px;
+    
+}
+
+.submitdiv>input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+
+.submitdiv>input[type="submit"]:hover {
+    cursor: pointer;
+    border: 2px solid blue;
+}
+
+.submitdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    algin-items: center;
+}
+
+.created_updated_succesfully {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.created_updated_succesfully>a {
+    padding: 10px;
+    border-radius:10px;
+}
