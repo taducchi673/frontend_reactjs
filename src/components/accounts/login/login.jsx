@@ -101,6 +101,7 @@ const Login = () => {
     })
   }
 
+  
 
   const handleresetpassword = () => {
     fetch(`${BaseURL}dj-rest-auth/password/reset/`, {
@@ -217,7 +218,9 @@ const Login = () => {
           </div>}
 
         </div>
-        <div className="form-container sign-in-container">
+        <div className="form-container sign-in-container" style={{
+          marginTop: "40px"
+        }}>
           {
             !FGPW ? <div >
               <h1>Sign in</h1>

@@ -36,3 +36,15 @@
     }
 
 }
+
+
+.finaledit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.finaledit button {
+    padding: 10px 15px;
+    border: 1px solid gray;
+    
+}

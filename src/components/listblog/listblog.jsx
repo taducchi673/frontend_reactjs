@@ -21,7 +21,7 @@ const Listblog = () => {
     const BaseURL = useContext(BaseURLContext)
     useEffect(() => {
         console.log(BaseURL);
-        fetch(`${BaseURL}api/blogs/`).then(data => data.json()).then(data => { setBloglist(data); console.log(data) })
+        fetch(`${BaseURL}api/blogs/`).then(data => data.json()).then(data => { setBloglist(data); })
         return () => {
 
         };

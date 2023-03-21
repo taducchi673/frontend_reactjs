@@ -79,23 +79,26 @@ const Coursedetail = () => {
                             <h1>
                                 Khoá học: {"      "}  {Course.name}
                             </h1>
-                            {CheckEnroll.length === 0 ? <button onClick={
-                                enroll
-                            }>Đăng ký khóa học</button> : <p>Bạn là học sinh của khóa học này</p>   }
-                            {
-                                (userid == Teacher.id || usertype == 3) && <div>
-                                    <button>
-                                        <Link exact to={`/app/courses/${courseId}/update`}>
-                                            Chỉnh sửa mô tả
-                                        </Link>
-                                    </button>
-                                    <button>
-                                        <Link exact to={`/app/courses/${courseId}/update-content`}>
-                                            Chỉnh sửa nội dung
-                                        </Link>
-                                    </button>
-                                </div>
-                            }
+                            <div className='finaledit'>
+                                {CheckEnroll.length === 0 ? <button onClick={
+                                    enroll
+                                }>Đăng ký khóa học</button> : <p>Bạn là học sinh của khóa học này</p>}
+                                <br />
+                                {
+                                    (userid == Teacher.id || usertype == 3) && <div>
+                                        <button>
+                                            <Link exact to={`/app/courses/${courseId}/update`}>
+                                                Chỉnh sửa mô tả
+                                            </Link>
+                                        </button>
+                                        <button>
+                                            <Link exact to={`/app/courses/${courseId}/update-content`}>
+                                                Chỉnh sửa nội dung
+                                            </Link>
+                                        </button>
+                                    </div>
+                                }
+                            </div>
                         </div>
                         <br />
                         <div className='giangvienInvideo'>

@@ -64,8 +64,8 @@ const Testcheckanswer = (
     return (
         <div className='testcheckanswer'>
             <h2>Đề thi: {TestContent.name}</h2>
-            <span>Kết quả: {Result/2}/{List.length}</span> <br />
-            <span>Kết quả(thang 10): {(Result / 2 ) / List.length * 10}</span>
+            <span>Kết quả: {Result}/{List.length}</span> <br />
+            <span>Kết quả(thang 10): {(Result) / List.length * 10}</span>
             <br /> <hr />
 
             {

@@ -16,16 +16,16 @@ const Listteacher = () => {
 
     const BaseURL = useContext(BaseURLContext)
     const [Listteacher, setListteacher] = useState([]);
-    
 
 
-    useEffect(()=> {
-        fetch(`${BaseURL}api/usertypes/1/users/`).then(data=>data.json()).then(data => {setListteacher(data);console.log(data)})
+
+    useEffect(() => {
+        fetch(`${BaseURL}api/usertypes/1/users/`).then(data => data.json()).then(data => { setListteacher(data); })
     }, [])
 
     return (
         <div className='listteacher_homepage'>
-            
+
             <div className="listteacher__content">
                 <Swiper
                     spaceBetween={20}

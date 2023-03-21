@@ -20,7 +20,7 @@ const Listcourse = () => {
     const [coursesList, setcoursesList] = useState([]);
 
     useEffect(() => {
-        fetch(`${BaseURL}api/courses/`).then(data => data.json()).then(data => { setcoursesList(data); console.log(data) })
+        fetch(`${BaseURL}api/courses/`).then(data => data.json()).then(data => { setcoursesList(data); })
         return () => {
 
         };
