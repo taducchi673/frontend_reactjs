@@ -80,12 +80,12 @@ function App() {
   }, [state.usename, state.email, state.key]);
   return (
     <Router >
-      <BaseURLContext.Provider value="http://taducchi.pythonanywhere.com/">
+      <BaseURLContext.Provider value="https://taducchi.pythonanywhere.com/">
 
         <LoginContext.Provider value={{ state, dispatch }} >
           <div className="App">
 
-            
+
             <Routes>
               <Route path="/app" element={<Homepage />}>
                 <Route path="" element={<Homepagecontent />} />
