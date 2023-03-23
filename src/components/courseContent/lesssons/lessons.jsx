@@ -56,7 +56,7 @@ const Lessons = ({ item, course }) => {
                 NotebookLessonlists.map((item2, id) => <Notebooklessonreview item={item2} key={id} course={course} />)
             }
             {
-                Testlist.map((item2, id) => <Testreview item={item} key={id} course={course} />)
+                Testlist.map((item2, id) => <Testreview item={item2} key={id} course={course} />)
             }
         </div>
     );
